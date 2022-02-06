@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root {
+  /* PRIMARY */
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* NEUTRAL */
+  --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray-background: hsl(0, 0%, 95%);
+  --Very-light-gray-headings: hsl(0, 0%, 95%);
+  --Very-light-gray-buttons: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Very-light-gray-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+img {
+  padding: 30px 10px 10px 10px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: var(--Very-light-gray-headings);
+  text-transform: uppercase;
+  margin: 20px 10px;
+}
+
+p {
+  color: var(--Transparent-white-paragraphs);
+  padding: 10px 10px 80px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.button-1 {
+  padding: 10px 20px;
+  background-color: var(--Very-light-gray-buttons);
+  color: var(--Bright-orange);
+  border-radius: 30px;
+  border-style: none;
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+  transition: all 0.6s ease-in-out;
+}
+
+.button-1:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.button-2 {
+  padding: 10px 20px;
+  background-color: var(--Very-light-gray-buttons);
+  color: var(--Dark-cyan);
+  border-radius: 30px;
+  cursor: pointer;
+  border-style: none;
+  font-family: "Lexend Deca", sans-serif;
+  transition: all 1s ease-in-out;
+}
+
+.button-2:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.button-3 {
+  padding: 10px 20px;
+  background-color: var(--Very-light-gray-buttons);
+  color: var(--Very-dark-cyan);
+  border-radius: 30px;
+  cursor: pointer;
+  border-style: none;
+  font-family: "Lexend Deca", sans-serif;
+  transition: all 1s ease-in-out;
+}
+
+.button-3:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  margin: 50px 20px;
+  padding: 0 0 20px;
+}
+
+.container-1 {
+  background-color: var(--Bright-orange);
+  padding: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.container-2 {
+  background-color: var(--Dark-cyan);
+  padding: 20px;
+}
+
+.container-3 {
+  background-color: var(--Very-dark-cyan);
+  padding: 20px;
+  border-radius: 0 5px 5px 0;
+}
